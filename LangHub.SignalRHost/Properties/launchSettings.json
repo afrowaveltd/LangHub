@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LangHub.SignalRHost": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

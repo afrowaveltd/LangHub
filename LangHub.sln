@@ -3,7 +3,93 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.Core", "LangHub.Core\LangHub.Core.csproj", "{F5FAA115-58D4-44D9-B4BA-4FED55F675E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.SignalRHost", "LangHub.SignalRHost\LangHub.SignalRHost.csproj", "{C831D4AE-35C7-48D7-B5A9-A4F88C80CE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.CLI", "LangHub.CLI\LangHub.CLI.csproj", "{B4C529CE-7252-4B82-BDA2-FAC650BBCC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.TUI", "LangHub.TUI\LangHub.TUI.csproj", "{BB957D43-F5E8-4A23-8F8B-485C1D651345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.GUI", "LangHub.GUI\LangHub.GUI.csproj", "{BD608F1A-08D8-77CF-C350-54443489F995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.GUI.Desktop", "LangHub.GUI.Desktop\LangHub.GUI.Desktop.csproj", "{FEB22437-F08F-F44E-3F45-064EE1097037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.UiToolkit", "LangHub.UiToolkit\LangHub.UiToolkit.csproj", "{4A813BA5-4640-4CE5-8C57-16592D0B8475}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "langhub.reactclient", "LangHub.ReactClient\langhub.reactclient.esproj", "{1D5FF110-036F-BC38-1DF5-084710355773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.Tests", "LangHub.Tests\LangHub.Tests.csproj", "{118C389C-5407-40B4-AD6C-69B103B95EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afrowave.Localization.Json", "Afrowave.Localization.Json\Afrowave.Localization.Json.csproj", "{32141627-9862-44EB-9F3E-731CB3F7995A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.BuildKit", "LangHub.BuildKit\LangHub.BuildKit.csproj", "{B707BA2C-1334-431C-AB69-E02A6BF3DE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.AiProxy", "LangHub.AiProxy\LangHub.AiProxy.csproj", "{38C5237E-A082-46E8-A846-CA489E5FCA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.MarkdownTranslator", "LangHub.MarkdownTranslator\LangHub.MarkdownTranslator.csproj", "{863C28F4-50B2-4123-91D5-74129AD72A1B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FAA115-58D4-44D9-B4BA-4FED55F675E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FAA115-58D4-44D9-B4BA-4FED55F675E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FAA115-58D4-44D9-B4BA-4FED55F675E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FAA115-58D4-44D9-B4BA-4FED55F675E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C831D4AE-35C7-48D7-B5A9-A4F88C80CE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C831D4AE-35C7-48D7-B5A9-A4F88C80CE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C831D4AE-35C7-48D7-B5A9-A4F88C80CE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C831D4AE-35C7-48D7-B5A9-A4F88C80CE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C529CE-7252-4B82-BDA2-FAC650BBCC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C529CE-7252-4B82-BDA2-FAC650BBCC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C529CE-7252-4B82-BDA2-FAC650BBCC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C529CE-7252-4B82-BDA2-FAC650BBCC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB957D43-F5E8-4A23-8F8B-485C1D651345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB957D43-F5E8-4A23-8F8B-485C1D651345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB957D43-F5E8-4A23-8F8B-485C1D651345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB957D43-F5E8-4A23-8F8B-485C1D651345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD608F1A-08D8-77CF-C350-54443489F995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD608F1A-08D8-77CF-C350-54443489F995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD608F1A-08D8-77CF-C350-54443489F995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD608F1A-08D8-77CF-C350-54443489F995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB22437-F08F-F44E-3F45-064EE1097037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB22437-F08F-F44E-3F45-064EE1097037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB22437-F08F-F44E-3F45-064EE1097037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB22437-F08F-F44E-3F45-064EE1097037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A813BA5-4640-4CE5-8C57-16592D0B8475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A813BA5-4640-4CE5-8C57-16592D0B8475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A813BA5-4640-4CE5-8C57-16592D0B8475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A813BA5-4640-4CE5-8C57-16592D0B8475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5FF110-036F-BC38-1DF5-084710355773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5FF110-036F-BC38-1DF5-084710355773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5FF110-036F-BC38-1DF5-084710355773}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D5FF110-036F-BC38-1DF5-084710355773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5FF110-036F-BC38-1DF5-084710355773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5FF110-036F-BC38-1DF5-084710355773}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{118C389C-5407-40B4-AD6C-69B103B95EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118C389C-5407-40B4-AD6C-69B103B95EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118C389C-5407-40B4-AD6C-69B103B95EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118C389C-5407-40B4-AD6C-69B103B95EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32141627-9862-44EB-9F3E-731CB3F7995A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32141627-9862-44EB-9F3E-731CB3F7995A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32141627-9862-44EB-9F3E-731CB3F7995A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32141627-9862-44EB-9F3E-731CB3F7995A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B707BA2C-1334-431C-AB69-E02A6BF3DE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B707BA2C-1334-431C-AB69-E02A6BF3DE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B707BA2C-1334-431C-AB69-E02A6BF3DE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B707BA2C-1334-431C-AB69-E02A6BF3DE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C5237E-A082-46E8-A846-CA489E5FCA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C5237E-A082-46E8-A846-CA489E5FCA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C5237E-A082-46E8-A846-CA489E5FCA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C5237E-A082-46E8-A846-CA489E5FCA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
