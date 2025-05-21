@@ -4,6 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <WarningsAsErrors>false</WarningsAsErrors>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

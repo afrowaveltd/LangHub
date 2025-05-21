@@ -1,0 +1,24 @@
+{
+  "_comment": "This file controls LangHub translation settings. Edit carefully.",
+
+  "_dictionaryPathComment": "Path to the directory containing the base dictionary files.",
+  "dictionaryPath": "./data",
+
+  "_oldDictionaryBackupPathComment": "Where to save backups of previous dictionaries before overwriting.",
+  "oldDictionaryBackupPath": "./old",
+
+  "_targetDirectoryComment": "Output directory where translated files will be saved.",
+  "targetDirectory": "./translated",
+
+  "_logDirectoryComment": "Folder where logs will be stored.",
+  "logDirectory": "./logs",
+
+  "_ignoredLanguagesComment": "Languages to exclude from translation (e.g., ['fr', 'de']).",
+  "ignoredLanguages": ["fr", "de"],
+
+  "_serverTimeoutSecondsComment": "Timeout (in seconds) to wait for a translation server response.",
+  "serverTimeoutSeconds": 10,
+
+  "_maxParallelRequestsComment": "Maximum number of concurrent translation requests.",
+  "maxParallelRequests": 5
+}

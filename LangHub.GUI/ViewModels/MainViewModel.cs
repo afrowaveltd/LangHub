@@ -1,6 +1,18 @@
 ﻿namespace LangHub.GUI.ViewModels;
 
+/// <summary>
+/// Main iew model for the application.
+/// </summary>
 public class MainViewModel : ViewModelBase
 {
-    public string Greeting => "Welcome to Avalonia!";
+	/// <summary>
+	/// The greeting text.
+	/// </summary>
+	public static string Greeting
+	{
+		get
+		{
+			return "Welcome to Avalonia!";
+		}
+	}
 }

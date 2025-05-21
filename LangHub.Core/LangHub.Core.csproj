@@ -4,6 +4,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <WarningsAsErrors>false</WarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,13 +17,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Config\Sections\" />
     <Folder Include="Memory\" />
-    <Folder Include="Files\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Helpers\" />
     <Folder Include="Snapshot\" />
     <Folder Include="Translation\Engines\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Afrowave.SharedTools\Afrowave.SharedTools.csproj" />
   </ItemGroup>
 
 </Project>

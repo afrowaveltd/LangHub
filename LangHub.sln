@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.Core", "LangHub.Core\LangHub.Core.csproj", "{F5FAA115-58D4-44D9-B4BA-4FED55F675E2}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.AiProxy", "LangHub.AiProxy\LangHub.AiProxy.csproj", "{38C5237E-A082-46E8-A846-CA489E5FCA32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangHub.MarkdownTranslator", "LangHub.MarkdownTranslator\LangHub.MarkdownTranslator.csproj", "{863C28F4-50B2-4123-91D5-74129AD72A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afrowave.SharedTools", "Afrowave.SharedTools\Afrowave.SharedTools.csproj", "{98D5E2D7-55BB-4D1D-965F-ED24DFCA70AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{863C28F4-50B2-4123-91D5-74129AD72A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D5E2D7-55BB-4D1D-965F-ED24DFCA70AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D5E2D7-55BB-4D1D-965F-ED24DFCA70AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D5E2D7-55BB-4D1D-965F-ED24DFCA70AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D5E2D7-55BB-4D1D-965F-ED24DFCA70AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
